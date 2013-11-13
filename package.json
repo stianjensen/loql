@@ -15,7 +15,7 @@
     "type": "git",
     "url": "http://github.com/stianjensen/loql"
   },
-  "bugs: {
+  "bugs": {
     "url": "http://github.com/stianjensen/loql/issues",
     "email": "bugs@stianj.com"
   },
