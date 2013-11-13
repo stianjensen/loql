@@ -11,6 +11,14 @@
     "local-tld-lib": "1.0.x",
     "connect": "2.11.x"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stianjensen/loql"
+  },
+  "bugs: {
+    "url": "http://github.com/stianjensen/loql/issues",
+    "email": "bugs@stianj.com"
+  },
   "keywords": [
     "local-tld",
     "pow"
