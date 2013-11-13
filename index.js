@@ -10,7 +10,9 @@ if (userArgs.length === 0) {
 }
 switch (arg) {
   case "help":
-    console.log("HELP");
+    console.log("\nUsage: loql [NAME]\n");
+    console.log("where NAME is the address your directory will be served at.\n");
+    console.log("If you supply no name, the name of the current working directory will be used.");
     break;
   default:
     var server = require('./server.js');
