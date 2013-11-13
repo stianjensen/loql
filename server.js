@@ -6,13 +6,15 @@ exports.run = function(domain) {
   var ltld = require("local-tld-lib");
 
   var port = (Math.random()*5000+10000)|0;
-  port = 12000
   ltld.add(domain, port);
 
+  var oneDay = 86400000;
   var app = connect()
-    .use(connect.favicon())
     .use(connect.logger('dev'))
-    .use(connect.static(process.cwd()));
+    .use(connect.static(
+      process.cwd(),
+      {maxAge: oneDay}
+    ));
 
   http.createServer(app).listen(port);
 
