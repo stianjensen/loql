@@ -1,0 +1,20 @@
+{
+  "name": "loql",
+  "version": "0.1.0",
+  "description": "Serves local directory on custom domain",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "local-tld": "4.0.x",
+    "local-tld-lib": "1.0.x",
+    "connect": "2.11.x"
+  },
+  "keywords": [
+    "local-tld",
+    "pow"
+  ],
+  "author": "Stian Jensen",
+  "license": "MIT"
+}
