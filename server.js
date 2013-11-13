@@ -18,7 +18,6 @@ exports.run = function(domain) {
 
   http.createServer(app).listen(port);
 
-  console.log("Internal server at http://localhost:" + port);
   console.log('Server running at http://' + domain + '.dev');
 
   process.on('SIGINT', function() {
