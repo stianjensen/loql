@@ -15,6 +15,6 @@
     "local-tld",
     "pow"
   ],
-  "author": "Stian Jensen",
+  "author": "Stian Jensen <me@stianj.com>",
   "license": "MIT"
 }
